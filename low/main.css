@@ -1,0 +1,109 @@
+body{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+#navbar{
+	border-bottom:solid thin #33CC33;
+}
+ul.menu{
+	margin-left:-30px;
+}
+ul.menu>li{
+	list-style: none;
+	left:0;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.link_button{
+	background-color: #33CC33;
+	padding:2%;
+	color:#fff;
+	font-size:22px;
+	width:70%;
+	margin-right:10%;
+	border:solid thin #ffffff;
+	float:right;
+	text-align:center;
+	text-decoration: none;
+}
+.icon_img{
+	width:40px;
+	height:40px;
+	
+}
+hr{
+	color: #33CC33;
+}
+#searchbox{
+	padding:2%;
+}
+.btn{
+	background: #33CC33;
+	border:solid thin #ffffff;
+	padding:2%;
+	color:#FFFFFF;
+	font-size:120%;
+}
+
+.ad_banner{
+	text-align: center;
+}
+.ad_img{
+	margin-top:1%;
+	width:100%;
+	height:inherit;
+}
+.stripe{
+	width:98%;
+	float:left;
+}
+.stripetext{
+	margin-top:2%;
+}
+.arrow{
+	float:right;
+	font-weight: bolder;
+	font-size:30px;
+	margin-right:1%;
+	
+}
+.footer{
+	width:95%;
+	text-align:center;
+	padding:4%;
+	overflow:hidden;
+	margin-top:2%;
+	margin-left:-10px;
+	margin-right:0;
+	background-color:#E6E6E6;
+}
+.stripe{
+	background-color:#55D43F;
+	color:#FFFfff;
+	text-align:left;
+	width:100%;
+	margin-bottom:1%;
+	padding:1%;
+}
+.arrow{
+	float:right;
+	color:#FFFFFF;
+	font-weight:bolder;
+	font-size:20px;
+	
+}
+.stripe a{
+	color:#FFFFFF;
+}
+#menu {
+	list-style:none;
+}
+#menu li{
+	margin-left:-15%;
+	padding:1%;
+	border-bottom:solid thin #CCCCCC;
+}
+#menu li a{
+	font-size:18px;
+}

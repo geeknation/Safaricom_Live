@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Select Your device</title>
+		<meta name="description" content="">
+		<meta name="author" content="ian">
+		<meta name="viewport" content="width=device-width,user-scalable=yes; initial-scale=1.0, maximum-scale=5.0, minimum-scale=.90">
+		<link rel="stylesheet" type="text/css" href="plugins/accordion/accordion.css">
+		<link rel="stylesheet" type="text/css" href="plugins/Naver-master/jquery.fs.naver.css">
+		<link rel="stylesheet" type="text/css" href="plugins/FlexSlider/flexslider.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="plugins/flex_tabs/flex_tabs.css">
+
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<table>
+					<tr>
+						<td><h1 class="logoholder"><img src="images/logo.png" /></h1></td>
+						<td>
+						<div class="searchholder">
+							<!-- <p class="s"><input name="search" id="search" type="search"></p> -->
+							<form action="index.html" method="post">
+								<input type="text" name="search" id="searchtext" value="Search...">
+							</form>
+						</div></td>
+					</tr>
+				</table>
+			</header>
+
+			<hr/>
+			<nav>
+				<ul id="menu">
+					<li>
+						<a class="scroll" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="scroll" href="selectdevice.html">AppStore</a>
+					</li>
+					<li>
+						<a class="scroll" href="#examples">Hot Offers</a>
+					</li>
+					<li>
+						<a href="cc.html">Customer Care</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="tabs-wrapper">
+				<input type="radio" name="tab" id="tab1" class="tab-head" checked="checked"/>
+				<label for="tab1">Manufacturer</label>
+				<input type="radio" name="tab" id="tab2" class="tab-head" />
+				<label for="tab2">Platform</label>
+				<div class="tab-body-wrapper">
+					<div id="tab-body-1" class="tab-body">
+						<h1>Choose Device:</h1>
+						<p>
+							Select your device:
+						</p>
+						<ul class="accordion">
+
+							<li id="one" class="files">
+								<a href="#one">A<span>495</span></a>
+								<ul class="sub-menu">
+
+									<li>
+										<a href="#"><em>01</em>A-device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>02</em>A-device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>03</em>A-device<span></span></a>
+									</li>
+
+								</ul>
+
+							</li>
+
+							<li id="two" class="mail">
+								<a href="#two">B<span>26</span></a>
+								<ul class="sub-menu">
+
+									<li>
+										<a href="#"><em>01</em>B-Device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>02</em>B-Device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>03</em>B-Device<span></span></a>
+									</li>
+
+								</ul>
+
+							</li>
+
+							<li id="three" class="cloud">
+								<a href="#three">C<span>58</span></a>
+								<ul class="sub-menu">
+
+									<li>
+										<a href="#"><em>01</em>C-Device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>02</em>C-Device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>03</em>C-Device<span></span></a>
+									</li>
+
+								</ul>
+
+							</li>
+
+							<li id="four" class="sign">
+								<a href="#four">D-Device<span>15</span></a>
+								<ul class="sub-menu">
+
+									<li>
+										<a href="#"><em>01</em>D-Device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>02</em>D-Device<span></span></a>
+									</li>
+
+									<li>
+										<a href="#"><em>03</em>D-Device<span></span></a>
+									</li>
+							</li>
+
+						</ul>
+
+						</li>
+
+						</ul>
+					</div>
+					<div id="tab-body-2" class="tab-body">
+						<h1> Choose Platform:</h1>
+						<div class="stripe">
+							Android<span class="arrow">></span>
+						</div>
+						<div class="stripe">
+							iOS<span class="arrow">></span>
+						</div>
+						<div class="stripe">
+							Palm<span class="arrow">></span>
+						</div>
+					</div>
+
+				</div>
+
+				<footer>
+					<p>
+						&copy; Copyright  by ian
+					</p>
+				</footer>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery1.9.js"></script>
+		<script type="text/javascript" src="plugins/accordion/accordion.js"></script>
+		<script type="text/javascript" src="plugins/Naver-master/jquery.fs.naver.min.js"></script>
+		<script type="text/javascript" src="plugins/FlexSlider/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$("nav").naver({
+					labelClosed : "Menu",
+					animated : true
+				});
+				$('.flexslider').flexslider({
+					animation : "slide"
+				});
+			});
+		</script>
+	</body>
+</html>

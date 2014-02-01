@@ -1,0 +1,207 @@
+/*
+ Main css for high specs mobile browsers.
+ */
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 100%;
+}
+header {
+	overflow: hidden;
+}
+.logoholder {
+	width: 20%;
+}
+.searchholder {
+	overflow: hidden;
+	text-align: right;
+}
+#searchtext {
+	width: 60%;
+	padding-top: 0.5%;
+	font-size: 100%;
+}
+input[type="submit"], input[type="button"] {
+	cursor: pointer;
+}
+
+#searchbutton {
+	/*background:white url('/images/search_button_glass.png') no-repeat top;*/
+
+}
+
+ul#menu {
+	overflow: hidden;
+	list-style: none;
+	text-align: left;
+}
+ul#menu li {
+	background-color: #33CC33;
+	padding: .5%;
+	margin-top: 1%;
+}
+ul#menu li > a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+hr {
+	color: #33CC33;
+}
+#content_tiles {
+	padding: 1%;
+	clear: right;
+	overflow: hidden;
+}
+.content_tile {
+	/*width:45%;*/
+	/*border: solid thin #33CC33;*/
+	text-align: center;
+	/*display:inline-block;*/
+	/*overflow: hidden;*/
+	/*margin-top: 1%;*/
+	background: rgba(237,237,237,1);
+	background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(245,245,245,1) 63%, rgba(246,246,246,1) 68%, rgba(250,250,250,1) 92%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,1)), color-stop(63%, rgba(245,245,245,1)), color-stop(68%, rgba(246,246,246,1)), color-stop(92%, rgba(250,250,250,1)));
+	background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(245,245,245,1) 63%, rgba(246,246,246,1) 68%, rgba(250,250,250,1) 92%);
+	background: -o-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(245,245,245,1) 63%, rgba(246,246,246,1) 68%, rgba(250,250,250,1) 92%);
+	background: -ms-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(245,245,245,1) 63%, rgba(246,246,246,1) 68%, rgba(250,250,250,1) 92%);
+	background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(245,245,245,1) 63%, rgba(246,246,246,1) 68%, rgba(250,250,250,1) 92%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fafafa', GradientType=0 );
+}
+.tile_title {
+	color: #009900;
+	/*background-color: #;*/
+	text-align: center;
+	width: 100%;
+}
+img.tile_icon {
+	width: 20%;
+	height: auto;
+}
+.social_panel {
+	background-color: #EDEDED;
+	font-size: larger;
+	padding-top: 0;
+	margin-bottom: 1%;
+	overflow: hidden;
+}
+.social_panel_text {
+	top: 0%;
+	display: inline;
+}
+
+.stripe{
+	background-color:#55D43F;
+	color:#FFFfff;
+	text-align:left;
+	width:100%;
+	margin-bottom:1%;
+	padding:1%;
+}
+.arrow{
+	float:right;
+	color:#FFFFFF;
+	font-weight:bolder;
+	font-size:20px;
+	
+}
+/*
+ search bar
+
+ #search {
+ -webkit-appearance: none;
+ font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ width: 24px;
+ padding: 0 10px;
+ height: 24px;
+ font-size: 14px;
+ color: #666;
+ line-height: 24px;
+ border: 0;
+ border-radius: 50px;
+ box-shadow: 0 0 0 1px rgba(0,150,200,.5), inset 0 2px 5px rgba(0,100,150,.3), 0 2px 0 rgba(255,255,255,.6);
+ position: relative;
+ z-index: 5;
+ -webkit-transition: .3s ease;
+ -moz-transition: .3s ease;
+ }
+
+ #search:focus {
+ outline: none;
+ width: 180px;
+ }
+
+ p.s {
+ z-index: 4;
+ position: relative;
+ padding: 5px;
+ line-height: 0;
+ border-radius: 100px;
+ background: #55D43F;
+ background-image: -webkit-linear-gradient(#55D43F,#55D43F);
+ background-image: -moz-linear-gradient(#dbf6ff,#b9ecfe);
+ display: inline-block;
+ box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 2px 5px rgba(0,100,150,.4);
+ }
+
+ p.s:hover {
+ box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 2px 3px 2px rgba(100,200,255,.5);
+ }
+
+ p.s:after {
+ content: '';
+ display: block;
+ position: absolute;
+ width: 5px;
+ height: 20px;
+ background: #55D43F;
+ bottom: -10px;
+ right: -3px;
+ border-radius: 0 0 5px 5px;
+ -webkit-transform: rotate(-45deg);
+ -moz-transform: rotate(-45deg);
+ box-shadow: inset 0 -1px 0 rgbA(255,255,255,.6), -2px 2px 2px rgba(0,100,150,.4);
+ }
+
+ p.s:hover:after {
+ box-shadow: inset 0 -1px 0 rgba(255,255,255,.6), -2px 2px 2px 1px rgba(100,200,255,.5);
+ }
+ */
+
+/*
+ menu optimization for tablets in potrait
+ */
+/*@media (min-width: ) and (max-width: 768px) {*/
+
+@media (min-width: 600px) {
+	/*style the navbar accordingly*/
+	body {
+		overflow: hidden;
+		font-size: 200%;
+	}
+	nav{
+		background-color: #555555;
+	}
+	ul#menu {
+		list-style: none;
+		text-align: left;
+	}
+	ul#menu li {
+		background-color: #33CC33;
+		padding: .5%;
+		margin-top: 1%;
+		display: inline-block;
+		border-radius:10%;
+	}
+
+	ul#menu li > a {
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#searchbutton {
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height: 1.33;
+		border-radius: 6px;
+	}
+}
+
